@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-slate-400 {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+
+.quote {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url("icons/wallpaper.jpg") no-repeat fixed bottom;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 12em;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Tapestry', cursive;
+    color: red;
+    letter-spacing: 5px;
+    
+}
+h1{
+    font-family: 'Tapestry', cursive;
+    font-weight: bold;
+}
+
+.story{
+    height:100vh;
+    
+}
+
+.trailer{
+    transition: box-shadow , transform, 0.3s ease-in-out;
+}
+    
+.trailer:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 0 0.45em 0.45em #efefd0;
+}
+
+.story img{
+    box-shadow: 0 0 0.2em 0.2em #efefd0;
+}
+.image img{
+    width:200px;
+    height:200px;
+    border: 2px solid black;
+    box-shadow: 0 0 0.2em 0.2em goldenrod;
+}
+.image figcaption{
+    text-align: center;
+    padding: 0.5em 0.5em 0.5em;
+    font-weight:  bold;
+    color:#EDE9D0;
+    text-decoration: underline;
+    font-size: 20px;
+}
